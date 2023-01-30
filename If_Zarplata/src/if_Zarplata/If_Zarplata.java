@@ -3,7 +3,7 @@ package if_Zarplata;
 public class If_Zarplata {
 
 	public static void main(String[] args) {
-	int Lada = 5000000;
+	int Lada = 500;
 	int Volkswagen = 5000;
 	int Lamborgini = 300000;
 	int salary = 5000000;
