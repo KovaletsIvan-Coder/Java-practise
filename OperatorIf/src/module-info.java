@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Адмін
+ *
+ */
+module OperatorIf {
+}

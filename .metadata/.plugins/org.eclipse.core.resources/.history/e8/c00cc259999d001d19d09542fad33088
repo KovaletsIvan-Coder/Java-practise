@@ -1,0 +1,66 @@
+package swich;
+
+import java.util.Scanner;
+
+public class Swich {
+
+	public static void main(String[] args) {
+System.out.println("Enter first letter your city");
+Scanner scan = new Scanner(System.in);
+String letter = "";
+letter = scan.nextLine();
+
+switch (letter.toLowerCase())
+{
+case "в":
+	System.out.println("Вінницька або Волинська");
+break;
+
+case "д":
+	System.out.println("Дніпровська або Донецька");
+	break;
+case "ж":
+	System.out.println("Житомирська");
+	break;
+case  "з":
+System.out.println("Закарпатська або Запорізька");
+break;
+case "і":
+	System.out.println("Івано-Франківськ");
+break;
+case "к":
+	System.out.println("Кіровоградська або Київська або Автономна Республіка Крим");
+	break;
+case "л":
+	System.out.println("Львівська");
+	break;
+case"м":
+	System.out.println("Миколаївська");
+	break;
+case"о":
+	System.out.println("Одеська");
+	break;
+case"п":
+System.out.println("Полтавська");
+break;
+case"р":
+	System.out.println("Рівненська");
+	break;
+	case"с":
+		System.out.println("Сумська");
+		break;
+	case"т":
+		System.out.println("Тернопільська");
+		break;
+	case"х":
+		System.out.println("Хмельницька або Харківська або Херсонська");
+		break;
+	case"ч":
+		System.out.println("Чернівецька або Чернігівська або Черкаська");
+		break;
+		default:
+			System.out.println("It`s wrong letter");
+}
+	}
+
+}

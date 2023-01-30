@@ -1,0 +1,15 @@
+package povernennyaMetodu;
+
+public class PovernennyaMetodu {
+
+	public static void main(String[] args) {
+		int chuslo = 5;
+System.out.println(chuslo);
+
+	}
+	public static int povernuchuslo(int chuslo) {
+	
+	return chuslo;
+	}
+
+}

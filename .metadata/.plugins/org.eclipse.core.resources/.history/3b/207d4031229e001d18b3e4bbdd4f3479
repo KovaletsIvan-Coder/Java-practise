@@ -1,0 +1,18 @@
+package while1;
+
+import java.util.Scanner;
+
+public class While1 {
+
+	public static void main(String[] args) {
+Scanner scan = new Scanner(System.in);
+int chuslo = 0;
+while (chuslo != 6)
+{
+	System.out.println("Guess the number");
+chuslo = scan.nextInt();
+	}
+System.out.println("You guess!");
+	}
+
+}

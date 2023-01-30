@@ -1,0 +1,27 @@
+package kalkulator2;
+
+import java.util.Scanner;
+
+public class Kalkulator2 {
+	public static void main (String[] args) {
+		
+	Scanner chuslo = new Scanner(System.in);
+	double chuslo1,chuslo2,rezultat;
+	String diya;
+	
+	System.out.print("Enter first number:");
+	chuslo1 = chuslo.nextDouble();
+	
+	System.out.print("Enter second nuumber:");
+	chuslo2 = chuslo.nextDouble();
+	
+	System.out.print("Enter an action (+-*/)");
+	diya = chuslo.nextLine();
+	
+	
+	
+	
+	
+}
+
+}

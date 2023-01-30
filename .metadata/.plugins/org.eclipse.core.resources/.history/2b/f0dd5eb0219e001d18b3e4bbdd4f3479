@@ -1,0 +1,13 @@
+package miyMetod;
+
+public class MiyMetod {
+	public static void main(String[]args) 
+	{
+		sayHallo();
+	}
+	public static void sayHallo(){
+		System.out.println("Hallo!");
+	}
+	}
+
+

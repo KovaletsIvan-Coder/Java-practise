@@ -1,0 +1,17 @@
+package while1;
+
+import java.util.Scanner;
+
+public class While1 {
+	public static void main(String[]args) {
+		Scanner scan = new Scanner(System.in);
+	int chuslo = 0;
+	while (chuslo != 5);
+	{
+	System.out.println("від 0 до 10");	
+	chuslo = scan.nextInt();
+	}
+	System.out.println("You quessed");
+	}
+
+}

@@ -1,0 +1,25 @@
+package swich;
+
+import java.util.Scanner;
+
+public class Swich {
+
+	public static void main(String[] args) {
+System.out.println("Enter first letter your city");
+Scanner scan = new Scanner(System.in);
+String letter = "";
+letter = scan.nextLine();
+
+switch (letter.toLowerCase())
+{
+case "в":
+	System.out.println("Вінницька або Волинська");
+break;
+
+case "Д":
+	System.out.println("Дніпровська або Донецька");
+	break;
+}
+	}
+
+}

@@ -1,0 +1,17 @@
+package miyMetod;
+
+import java.util.Scanner;
+
+public class MiyMetod1 {
+
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter your name");
+    String name = scan.nextLine();
+    sayHallo(name);
+	}
+public static void sayHallo (String name) {
+System.out.println("Hello, " + name);
+}
+}

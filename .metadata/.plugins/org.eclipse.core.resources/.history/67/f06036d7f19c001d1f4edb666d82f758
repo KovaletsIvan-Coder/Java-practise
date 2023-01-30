@@ -1,0 +1,18 @@
+package nkrementDekrement;
+
+import java.util.Scanner;
+
+public class IncrementDecrement {
+
+	public static void main(String[] args) {
+	Scanner chuslo = new Scanner (System.in);
+	System.out.println("Enter quantity of ice cream");
+	
+	int iceCream = chuslo.nextInt();
+	
+	System.out.println("Congratulationі!,take more" + iceCream++);
+	System.out.println(iceCream);
+
+	}
+
+}

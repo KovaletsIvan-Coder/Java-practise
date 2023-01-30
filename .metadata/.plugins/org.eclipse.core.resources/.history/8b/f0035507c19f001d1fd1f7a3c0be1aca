@@ -1,0 +1,17 @@
+package TrenarnuyOperator;
+
+import java.util.Scanner;
+
+public class TrenarnuyOperator {
+
+	public static void main(String[] args) {
+// 0-1000  викладачі
+// 1000-5000 студенти
+	Scanner scan = new Scanner(System.in);
+	System.out.println("Enter your ID-code");
+	int id = scan.nextInt();
+	double price =(id <1000 )? 15.0 :10.0;
+	System.out.println("This cost: " + ((id <1000 )?15.0 :10.0));
+	}
+
+}

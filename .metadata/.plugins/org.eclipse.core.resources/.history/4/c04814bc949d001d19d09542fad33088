@@ -1,0 +1,16 @@
+package swich1;
+
+import java.util.Scanner;
+
+public class Switch1 {
+
+	public static void main(String[] args) {
+		System.out.print("Enter first letter your city");
+		Scanner scan = new Scanner(System.in);
+		String letter = "";
+		letter = scan.nextLine();
+
+		switch (letter.toLowerCase())
+	}
+
+}
